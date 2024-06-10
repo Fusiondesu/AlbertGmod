@@ -1,0 +1,44 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "polarstar",
+    "customModelName": "Normal",
+    "name": "Polar Star",
+    "specialInfo": [
+      "A mystical bow infused with cold shards.",
+      "Every shot stacks \"Ashen Nightstar\"; which increases damage dealth by 0.5 for 4 seconds and capped at 2 damage.",
+      "After the effect ends; each stacks regenerates 1 HP."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.8,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.ARROW"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "PolarStarProjectileHitsLivingEntity"
+    }
+  }
+}

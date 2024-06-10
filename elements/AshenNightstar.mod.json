@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Ashen Nightstar",
+    "icon": "water_spell.png",
+    "color": {
+      "value": -13338665,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onExpired": {
+      "name": "AshenNightstarEffectExpires"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sword4",
+    "customModelName": "Normal",
+    "name": "Firefly Blade",
+    "specialInfo": [
+      "A blade that warms itself deep within.",
+      "While your HP is more than 4; attacks with this blade stacks \"Firefly's Ascent\" by dealing 0.1 damage to user.",
+      "At 3 stacks",
+      "all stacks are converted into \"Firefly's Descend\" for 10 seconds.",
+      "Firefly's Descend lets you burn your target %20 chance for each level."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.7,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FireflyBladeLivingEntityIsHitWithTool"
+    },
+    "onEntitySwing": {
+      "name": "FireflyBladeEntitySwingsItem"
+    }
+  }
+}

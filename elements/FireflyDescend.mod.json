@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Firefly's Descend",
+    "icon": "on_fire.png",
+    "color": {
+      "value": -39424,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

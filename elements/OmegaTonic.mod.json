@@ -1,0 +1,64 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "worthytonic",
+    "customModelName": "Normal",
+    "name": "Omega Tonic",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 10,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "A tonic that gives various effects with dependecies.",
+      "Each time the tonic is consumed",
+      "the effect checks will be applied from top to bottom.",
+      "When consumed",
+      "4 HP is regenerated over 4 seconds.",
+      "If regeneration is already present",
+      "tonic gives resistance instead.",
+      "If resistance is already present",
+      "tonic gives strength instead.",
+      "If strength is already present",
+      "tonic gives movement speed.",
+      "If all the effects above are already present",
+      "tonic improves the benefits of the tonic",
+      "cleanses all other temporary effects",
+      "and make their durations will be set to 6 seconds!",
+      "Every time tonic is consumed",
+      "its effect durations will be reset."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "OmegaTonicPlayerFinishesUsingItem"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

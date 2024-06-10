@@ -1,0 +1,52 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "turtletonic",
+    "customModelName": "Normal",
+    "name": "Turtle Tonic",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 10,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "A special tonic that grants you high damage absorbtion",
+      "but also slows you for 5 seconds.",
+      "If you already have resistance",
+      "fire resistance will be applied instead.",
+      "No turtles were harmed creating this tonic."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "TurtleTonicPlayerFinishesUsingItem"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

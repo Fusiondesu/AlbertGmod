@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Firefly's Ascend",
+    "icon": "on_fire_low.png",
+    "color": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

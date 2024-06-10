@@ -1,0 +1,51 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadytonic",
+    "customModelName": "Normal",
+    "name": "Shady Tonic",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 10,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "A special tonic that grants temporary intense movement speed with a little debuff for 4 seconds.",
+      "Sight doesn't matter afterall.",
+      "If you already have speed",
+      "invisibility will be applied instead."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "ShadyTonicPlayerFinishesUsingItem"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}
